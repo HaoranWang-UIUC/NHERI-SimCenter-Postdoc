@@ -4,7 +4,7 @@ Programming Questions for NHERI SimCenter Postdoc Position
 
 Problem 1
 
-From /HaoranWang-UIUC/NHERI-SimCenter-Postdoc/Problem_1/Problem_1, you can find\n
+From /HaoranWang-UIUC/NHERI-SimCenter-Postdoc/Problem_1/Problem_1, you can find
 
 Source code: main.cpp
 

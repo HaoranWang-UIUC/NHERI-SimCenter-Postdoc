@@ -1,6 +1,7 @@
 # NHERI-SimCenter-Postdoc
 Programming Questions for NHERI SimCenter Postdoc Position
 
+/////////////////////////////////////////////////
 
 Problem 1
 
@@ -15,3 +16,4 @@ Source code: main.cpp
 1 executable: Problem_1
 
 Command to test the code: $ ./Problem_1 test_file_1.txt test_file_2.txt test_file_3.txt test_file_4.txt Output_results.txt
+

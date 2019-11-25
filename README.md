@@ -2,7 +2,7 @@
 Programming Questions for NHERI SimCenter Postdoc Position
 
 Problem 1
-From /HaoranWang-UIUC/NHERI-SimCenter-Postdoc/Problem_1/Problem_1, you can find
+From /HaoranWang-UIUC/NHERI-SimCenter-Postdoc/Problem_1/Problem_1, you can find\n
 Source code: main.cpp
 4 test input files: test_file_1.txt, test_file_2.txt, test_file_3.txt & test_file_4.txt
 1 test output file: results_output.txt

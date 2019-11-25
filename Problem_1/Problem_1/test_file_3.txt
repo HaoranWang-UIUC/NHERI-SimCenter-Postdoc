@@ -1,0 +1,5 @@
+Question 2: You have a vector of integers, and for each index you want to find the product of every integer except the integer at that index. Write an EFFICIENT C or C++ function getSpecialProducts( ) that takes as input a vector of integers and returns a vector array of the products described. Your function may NOT use division in the solution. In your writeup please ensure you discuss the complexity of the algorithm you used, i.e. O(1), O(N), O(N^2), etc.
+
+Example: If the input vector is [2 4 3 5], the output vector is [60 30 40 24].
+
+Additionally, write a C or C++ program that uses getSpecialProducts( ) and which takes as input a file containing a line of integers and which outputs to another file a line containing the getSpecialProducts function of these input integers.

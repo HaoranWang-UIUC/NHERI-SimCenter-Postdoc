@@ -1,0 +1,7 @@
+Deliverables: For each question below, please provide.
+
+1. A writeup describing your solution in detail and discussing it and the steps you took in developing it.
+
+2. A GitHub repository containing all source code and verification examples. We ask that you try to use GitHub during code development for these exercises and not just as a repository to upload your final solutions.
+
+When done please submit a link to the repository to Dr. McKenna at fmckenna@berkeley.edu with cc to Prof. Govindjee at s_g@berkeley.edu, Prof. Taflanidis at a.taflanids@nd.edu and Dr. Schoettler at schoettler@berkeley.edu.

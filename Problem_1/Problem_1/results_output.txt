@@ -1,0 +1,5 @@
+Input_File_Name     Num_of_Word    Num_of_Unique_Word  Num_of_Palindrome_Word   Num_of_Character    Num_of_Line    
+test_file_1.txt     97             68                  5                        509                 4              
+test_file_2.txt     173            88                  5                        759                 4              
+test_file_3.txt     139            85                  8                        645                 3              
+test_file_4.txt     646            348                 22                       3259                23             

@@ -1,0 +1,6 @@
+Question 1: Write a C or C++ program that accepts N arguments:
+
+1) the first N-1 arguments are names of input files
+2) the last argument, the Nth argument, is the name of an output file.
+
+When when the program is run, the output file must contain a line for each of the N-1 input files. That line must contain the following items in this order: input file name, the number of words, number of unique words, number of palindrome words in the set of unique words, number of characters in the file, and number of lines in the file. A word is defined as a string of characters that is delimited by spaces or periods, a character is considered any byte in the file that is not a space or a newline character. A line is defined as a set of strings that is delimited by newline characters. Be sure your program catches user errors. In your writeup please ensure you discuss the choice of data structures employed and search algorithms used.

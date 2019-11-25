@@ -1,0 +1,36 @@
+Question 3: [This question may be done in Python, Fortran, C, or C++] Consider the example of water flowing through a borehole. The systems fluid flow rate is described by a model parameter vector consisting of the radius of the borehole (rw), the radius of influence (r), the transmissivity of the upper aquifer (Tu), the potentiometric head of the upper aquifer (Hu), the transmissivity of the lower aquifer (Tl), the potentiometric head of the lower aquifer (Hl), the length of the borehole (L) and the hydraulic conductivity of the soil (Kw). The marginal distribution characteristics of the model parameters are given in Table 1. All parameters are independent apart from Tu and Tl which are correlated with correlation coefficient 0.4, and Hu whose distribution is conditional on Hl (as shown in Table 1).
+
+Table 1: Marginal distribution characteristics for model parameters Input Distribution Parameters
+rw r Tu Hl Tl Hu L Kw
+[m] Uniform [m] Lognormal [m2/year] Gaussian [m] Uniform [m2/year] Gaussian [m] Uniform [m] Uniform [m/year] Uniform
+[0.1, 0.2]*
+[5, 2]**
+[89000, 8900]*** [700, 820]*
+[89, 8.9]***
+[Hl +100, Hl +200]* [1120, 1680]* [9500, 13000]*
+*Parameters correspond to range for distribution
+** Parameters corresponds to logarithmic mean and logarithmic standard deviation *** Parameters corresponding to mean and standard deviation
+
+The random parameter vector is defined as =[rw, r, Tu, Hu, Tl, Hl, L, Kw] having dimension n=8. The water flow rate y() (measured in m3/year) is calculated through the following equation:
+
+We will consider first the probability that the flow rate will exceed a threshold where I is the indicator function taking the value 1 if the expression inside the brackets holds, else it is zero.
+
+a) Write a computer program (C, C++, or Python) using a direct Monte Carlo method with 1000 samples to calculate P(y1) for 150 m3/year. What is the coefficient variation of your estimator?
+
+b) Using the same sample set can you approximate the probability density for y?
+
+c) Now consider P(y2) for 250 m3/year. You are again allowed to use only 1000 samples but want to get an estimate of P(y2) with high confidence (small coefficient of variation). Note, a direct Monte Carlo method cannot accomplish this for such a large threshold, so you are required to use some sort of variance reduction technique, with preference for importance sampling. Calculate P(y2) for 2=250 m3/year using a variance-reduction based Monte Carlo.
+
+d) For a very large 400 m3/year value, corresponding to a rare event, how would you approach the problem of calculating P(y3) . Here you do not need to perform any calculations, simply explain the approach you would use.
+
+e) Would your answer for (d) change if your numerical model for calculating y was an expensive simulator (computationally expensive) as opposed to the simple analytic form provided?
+
+We are now provided Input/Output data for the borehole flow rate. Measured output is y [in m3/year] and measured input the differential u = Hu - Hl [in m]. They are both provided as .txt files (input.txt, output.txt). Given the single-input/single-output data D ={u, y}; i =1,...,M , where ii. denotes measurement, for a total of M=40 data pairs, we want to infer the remaining model parameters m =[rw, r, Tu, Tl, L, Kw]. Assuming a Gaussian error hypothesis between model and system (measurements) with standard deviation the likelihood function is given by
+
+We have no prior information about value of and we would also like to infer it using the data. You may assume it is bounded in [0, 10] m3/year.
+
+f) Write a program to draw samples from distribution p(m, e|D) using any appropriate algorithm.
+
+g) What would the maximum likelihood estimate for parameters m be? You do not need to necessarily calculate this, simply explain how you could calculate it.
+
+h) Can you now update your estimate from part (a) for P(y1|D) when 1=150 m3/year.

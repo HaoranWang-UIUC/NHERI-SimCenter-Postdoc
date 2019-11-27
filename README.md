@@ -31,3 +31,5 @@ Source code: main.cpp (including the function of getSpecialProducts)
 1 test output file: getSpecialProducts.txt
 
 1 executable: Problem_2
+
+Command to test the code: $ ./Problem_2 test_input_vector.txt

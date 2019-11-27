@@ -51,7 +51,7 @@ void CountFiles(istream& in, unsigned long* line_count, unsigned long* word_coun
         }
     }
     
-    uniq_word_count[i] += word_table.size();
+    uniq_word_count[i] = word_table.size();
     
 }//end of CountFiles function
 //******************************************************
@@ -60,7 +60,7 @@ int main(int argc, char** argv) {
 
     if (argc < 3)//check command
         {cout << "Error: At least 1 input and 1 output are required!" << endl;
-            return(EXIT_FAILURE);
+         exit(EXIT_FAILURE);
         }
     
     unsigned long line_count[argc-2], word_count[argc-2], uniq_word_count[argc-2], palin_word_count[argc-2], char_count[argc-2];
@@ -99,5 +99,7 @@ int main(int argc, char** argv) {
     myfile.close();
     
     cout << "Job completed! Please find results in " << argv[argc-1]<< endl;
+    
+    return 0;
 
 }

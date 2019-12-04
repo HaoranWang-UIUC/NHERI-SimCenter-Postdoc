@@ -38,6 +38,7 @@ Command to test the code: $ ./Problem_2 test_input_vector.txt
 /////////////////////////////////////////////////
 Problem 3_a
 /////////////////////////////////////////////////
+
 From /HaoranWang-UIUC/NHERI-SimCenter-Postdoc/Problem_3a/Problem_3a, you can find
 
 Source code: main.cpp
@@ -53,6 +54,7 @@ Command to test the code: $ ./Problem_3a
 /////////////////////////////////////////////////
 Problem 3_c
 /////////////////////////////////////////////////
+
 From /HaoranWang-UIUC/NHERI-SimCenter-Postdoc/Problem_3b/Problem_3c, you can find
 
 Source code: main.cpp
@@ -68,6 +70,7 @@ Command to test the code: $ ./Problem_3c
 /////////////////////////////////////////////////
 Problem 3_f
 /////////////////////////////////////////////////
+
 From /HaoranWang-UIUC/NHERI-SimCenter-Postdoc/Problem_3f/Problem_3f, you can find
 
 Source code: main.cpp

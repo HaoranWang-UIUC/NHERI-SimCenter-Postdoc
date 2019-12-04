@@ -33,3 +33,49 @@ Source code: main.cpp (including the function of getSpecialProducts)
 1 executable: Problem_2
 
 Command to test the code: $ ./Problem_2 test_input_vector.txt
+
+
+/////////////////////////////////////////////////
+Problem 3_a
+/////////////////////////////////////////////////
+From /HaoranWang-UIUC/NHERI-SimCenter-Postdoc/Problem_3a/Problem_3a, you can find
+
+Source code: main.cpp
+
+1 test output file: Random_parameters_and_flow_rate.txt
+
+1 executable: Problem_3a
+
+Command to test the code: $ ./Problem_3a
+
+
+
+/////////////////////////////////////////////////
+Problem 3_c
+/////////////////////////////////////////////////
+From /HaoranWang-UIUC/NHERI-SimCenter-Postdoc/Problem_3b/Problem_3c, you can find
+
+Source code: main.cpp
+
+1 test output file: Random_parameters_and_flow_rate_ISMC.txt
+
+1 executable: Problem_3c
+
+Command to test the code: $ ./Problem_3c
+
+
+
+/////////////////////////////////////////////////
+Problem 3_f
+/////////////////////////////////////////////////
+From /HaoranWang-UIUC/NHERI-SimCenter-Postdoc/Problem_3f/Problem_3f, you can find
+
+Source code: main.cpp
+
+2 test input file: input.txt output.txt
+
+1 test output file: Parameters based on posterior sampling.txt
+
+1 executable: Problem_3f
+
+Command to test the code: $ ./Problem_3f
